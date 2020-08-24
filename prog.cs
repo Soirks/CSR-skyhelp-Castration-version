@@ -36,7 +36,7 @@ namespace aaa
                 if (a.blockname == obsidian & a.itemname == Bucket & a.dimensionid == 0)
                 {
                     api.runcmd("setblock " + a.position.x + " " + a.position.y + " " + a.position.z + " flowing_lava");
-                    api.runcmd("tellraw " + a.playername + " {\"rawtext\":[{\"text\":\"§3[射爆庚子]§c已帮亲亲恢复岩浆了哦！\"}]}");
+                    api.runcmd("tellraw \"" + a.playername + "\" {\"rawtext\":[{\"text\":\"§3[射爆庚子]§c已帮亲亲恢复岩浆了哦！\"}]}");
 
                 }
                 return true;
