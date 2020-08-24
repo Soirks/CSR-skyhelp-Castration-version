@@ -56,6 +56,7 @@ namespace CSR
             // TODO 此接口为必要实现
             aaa.scr.aaascr(api);
             Console.WriteLine("[爆射庚子]空岛小帮手已加载 作者_庚子 Soirks二改");
+            Console.ForegroundColor = ConsoleColor.Red;
         }
     }
 }
